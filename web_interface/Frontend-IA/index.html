@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AMEX ML</title>
+    <link rel="stylesheet" href="./css/estilos-index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body class="page">
+    <div class="image">
+        <img class="img" src="./img/index.jpeg" alt="Italian Trulli">
+        <img class="amx" src="./img/AMEX.png" alt="Italian Trulli">
+    </div>
+    <div class="body">
+        <span class="title"> American Express - Default Prediction </span>
+        <hr>
+        <span class="info"> Ingresa el documento de información de clientes </span>
+        <form enctype="multipart/form-data" class="form">
+            <button onclick="document.getElementById('file-input').click()" class="btn">Seleccionar archivo <i
+                    class="fa-solid fa-upload"></i> </button>
+            <input style="display: none;" id="file-input" type="file" name="csvfile">
+
+        </form>
+
+    </div>
+</body>
+
+
+</html>
