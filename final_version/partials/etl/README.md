@@ -42,4 +42,4 @@ Ya que cada fila no representaba una instancia por sí misma, se hizo el anális
 #### **_One Hot Encoding_**
 
 En la descripción de los datos en Kaggle, se nos indicaba que se contaban con un total de 11 columnas categóricas: `['B_30', 'B_38', 'D_114', 'D_116', 'D_117', 'D_120', 'D_126', 'D_63', 'D_64', 'D_66', 'D_68'] `.
-<br>Se hizo uso de la función **[preprocessing.LabelEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html)** de sklearn para la categorización
+<br>Se hizo uso de la función **[preprocessing.LabelEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html)** de sklearn para la categorización de
