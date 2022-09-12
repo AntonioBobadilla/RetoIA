@@ -11,4 +11,15 @@
 
 ---
 
-## **tile**
+## **Tipo de problema**
+
+El modelo recibe una serie de variables explicativas, que dan como resultado un binario que determina si el usuario pagará el crédito o no:
+- 0: El usuario no pagará
+- 1: El usuario pagará
+
+Es por ello que se trata de un problema de clasificación binaria, para el cual existen diversos algoritmos de inteligencia artificial que se especializan en la clasificación de los resultados.
+
+## **Modelo utilizado**
+
+## **Modificación de hiperparámetros**
+## **Resultados**
