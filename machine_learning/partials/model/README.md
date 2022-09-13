@@ -36,18 +36,18 @@ Al utilizar este modelo en el reto por primera vez, nos dimos cuenta que nuestro
 Se realizaron modificaciones de hiperparámetros para la obtención de un mejor modelo con un nivel más alto de precisión. Los parámetros modificados se encuentran a continuación: 
 
 -200 épocas, 2 hidden layers de 20 neuronas cada una.
-![Grafica 1](./assets/200-20-20.png) 
+![Grafica 1](../graphs/200-20-20.png) 
 -200 épocas, 2 hidden layers de 25 neuronas cada una.
-![Grafica 2](./assets/200-25-25.png) 
+![Grafica 2](../graphs/200-25-25.png) 
 -200 épocas, 2 hidden layers de 33 neuronas cada una y un learning rate de 0.6.
-![Grafica 3](./assets/200-33-33-06.png) 
+![Grafica 3](../graphs/200-33-33-06.png) 
 -300 épocas, 2 hidden layers de 30 neuronas cada una.
-![Grafica 4](./assets/300-30-30.png) 
+![Grafica 4](../graphs/300-30-30.png) 
 
 El modelo elegido consta de los siguientes parámetros:
 
 -200 épocas, 4 hidden layers de 10 neuronas, 10 neuronas, 10 neuronas y 5 neuronas y un learning rate de 0.6
-![Grafica 5](./assets/200-10-10-10-5-06.png) 
+![Grafica 5](../graphs/200-10-10-10-5-06.png) 
 
 
 ### **Resultados**
