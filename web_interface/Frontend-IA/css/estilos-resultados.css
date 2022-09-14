@@ -1,0 +1,75 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    font-family: 'Inter', sans-serif;
+
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+header .img {
+    width: 100px;
+    height: auto;
+    float: right;
+    margin:40px;
+}
+
+header .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.resultados {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultados h1 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.resultados hr {
+    width: 250px;
+    height: 3px;
+    background-color: black;
+}
+
+.resultados .graficas {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultados .graficas .graficas-resultados {
+    width: 50%;   
+}
+
+.resultados .graficas .graficas-imagen {
+    width: 50%;   
+}
+
+.resultados .graficas ul .item-response {
+    margin-top: 20px;
+}
+
+.resultados .graficas img {
+    width: 50%;
+    height: 100%;
+}
