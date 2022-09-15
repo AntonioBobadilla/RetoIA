@@ -1,0 +1,84 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    font-family: 'Inter', sans-serif;
+    background-image:url('../img/bg-processing.png');
+    background-size: cover;
+
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.wrapper header {
+    width: 100%;
+    height: 160px;
+}
+
+.wrapper header .img {
+    width: 100px;
+    height: auto;
+    float: right;
+    margin:40px;
+}
+
+.wrapper header .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.procesando {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.procesando h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.procesando .spinner {
+    margin-top: 60px;
+    font-size: 50px;
+    animation: spinning 2s linear infinite;
+}
+
+.procesando .loading-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.procesando .loading-wrapper p {
+    margin-top: 20px;
+}
+
+.procesando .loading-wrapper .bar {
+    width: 500px;
+    height: 40px;
+    background:#0061B6;
+    border-radius: 100px;
+}
+
+@keyframes spinning {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
